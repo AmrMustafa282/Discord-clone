@@ -1,0 +1,1019 @@
+@font-face {
+    font-family: "Ginto500";
+    font-weight: 300;
+    src: url(DiscordFonts-master/Ginto/Ginto-500.woff)
+}
+@font-face {
+    font-family: "Ginto300";
+    font-weight: 300;
+    src: url(DiscordFonts-master/Ginto/Ginto-300.woff)
+}
+@font-face {
+    font-family: "Ginto-Nord";
+    font-weight: 300;
+    src: url(DiscordFonts-master/Ginto-Nord/Ginto-Nord-700.woff2)
+}
+@font-face {
+    font-family: "gg-sans";
+    font-weight: 300;
+    src: url(DiscordFonts-master/gg-sans/gg-sans-300.woff)
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: auto;
+    font-family: "Ginto500";
+    letter-spacing: .6px; 
+    
+}
+a
+{
+    text-decoration: none;
+}
+
+.maincontiner
+{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+
+
+
+header
+{
+    background:#404eed;
+    height: 80px;
+    width: 100%;
+}
+.header
+{
+    background-color: #404eed;
+    width: min(100%-50px , 840px);
+    margin-inline: 50px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 0 35px;
+}
+
+.nav{
+    width: 1180px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+}
+
+
+.nav .list
+{
+    display: flex;
+    width:900px;
+    justify-content:center;
+
+}
+.nav .login
+{   
+    margin-left: auto;
+    
+}
+.nav .login a 
+{
+    color: rgb(36, 32, 32);
+    background-color: white;
+    display: flex;
+    border: none;
+    width: 65px;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 38px;
+    font-size: 14px;
+}
+.nav .logo a
+{   
+    display: flex;
+    width: 124px;
+    height: 34px;
+    background-image: url(imgs/discord-logo-white.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    
+}
+
+
+.nav ul
+{
+
+    margin-left: 40px;
+
+}
+.nav li
+{   
+    display: inline;
+    list-style-type: none;
+    margin: 0 18px;
+    
+}
+.nav li a 
+{
+    color:  white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+main
+{
+    
+    width: 100%;
+    height: fit-content;
+}
+.main
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+    
+}
+main .sec1 , main .sec2 , main .sec3 , main .sec4 , main .sec5 
+{
+    padding: 0 35px;
+}
+main .one 
+{
+    width: 1180px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+main .sec1
+{   
+    background-color: #404eed;
+    height: 545px;
+    display: flex;
+    justify-content: center;
+    background-image: url(imgs/back.svg);
+    background-repeat:no-repeat;
+    background-size:2600px;
+    background-position-x: center;
+    background-position-y: bottom;
+    overflow: hidden;
+    
+    
+    
+}
+/* main .sec1 .leftpic
+{
+    width: 689px;
+    height: 352px;
+    position:absolute;
+    background-image: url(imgs/left.svg);
+    background-size: cover;
+    bottom: 13px;
+    left: -350px;
+}
+main .sec1 .rightpic
+{
+    width: 689px;
+    height: 352px;
+    position:absolute;
+    background-image: url(imgs/right.svg);
+    bottom: 13px;
+    background-repeat: no-repeat;
+    right: -350px;
+    
+}  */
+
+
+
+
+
+
+
+
+main .sec1 .leftpic
+{
+    margin-left: -315px;
+    margin-top: 200px;
+    width: 689px;
+    height: 352px;
+}
+
+main .sec1 .rightpic
+{
+    margin-right: -280px;
+    margin-top: 200px;
+    width: 615px;
+    height: 360px;
+}
+
+
+
+
+
+
+
+
+.upperpics
+{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 720px;
+}
+
+.imaginaplace
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    width: 100%;
+    margin-top: -30px;
+
+}
+.imaginaplace h1
+{
+    font-size: 56px;
+    font-family: "Ginto-Nord";
+    color: #ffffff;
+    text-align: center;
+}
+.imaginaplace p
+{
+    color: #ffffff;
+    line-height: 30px;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 40px;
+    /* font-family:"Ginto300"; */
+}
+
+.imaginaplace .As 
+{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+.imaginaplace .leftA
+{
+    background-color: #ffff;
+    border: none;
+    border-radius:56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #23272e;
+    padding: 0 30px;
+    font-size: 20px;
+}
+.downloadIcon
+{
+    width: 23px;
+    margin-right: 5px;
+}
+
+.imaginaplace .rightA
+{
+    background-color: #23272e;
+    border: none;
+    border-radius:56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    padding: 0 30px;
+    font-size: 20px;
+    letter-spacing: -.7px;
+}
+
+
+main .two 
+{
+    width: 1180px;
+    display: flex;
+    justify-content: center;
+    
+}
+main .sec2
+{   
+    background-color: #fff;
+    height: 680px;
+    display: flex;
+    justify-content: center;
+}
+
+.sec2main
+{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 0;
+    width: 100%;
+}
+
+.sec2main .PIC 
+{
+    width: 678px;
+    height: 440px;
+    background-image: url(imgs/first.svg);
+
+}
+.sec2main .text
+{
+    width: 380px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.sec2main .text h2
+{
+    color: #23272e;
+    font-size: 48px;
+}
+
+.sec2main .text p
+{
+    font-size: 24px;
+    margin-top: 24px;
+    color: #23272e;
+}
+
+
+
+
+
+main .three 
+{
+    width: 1180px;
+    display: flex;
+    justify-content: center;
+}
+main .sec3
+{   
+    background-color: #f6f6f6;
+    height: 680px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.sec3main
+{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 0px;
+    width: 100%;
+}
+
+.sec3main .PIC 
+{
+    width: 678px;
+    height: 440px;
+    background-image: url(imgs/second.svg);
+
+}
+.sec3main .text
+{
+    width: 380px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.sec3main .text h2
+{
+    font-size: 48px;
+    color: #23272e;
+}
+
+.sec3main .text p
+{
+    font-size: 24px;
+    margin-top: 24px;
+    color: #23272e;
+}
+
+
+
+
+
+
+
+
+main .four 
+{
+    width: 1180px;
+    display: flex;
+    justify-content: center;
+    
+}
+main .sec4
+{   
+    background-color: #fff;
+    height: 680px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+.sec4main
+{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 0;
+    width: 100%;
+}
+
+.sec4main .PIC 
+{
+    width: 678px;
+    height: 440px;
+    background-image: url(imgs/theird.svg);
+
+}
+.sec4main .text
+{
+    width: 380px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.sec4main  .text h2
+{
+    color: #23272e;
+    font-size: 48px;
+}
+
+.sec4main  .text p
+{
+    font-size: 24px;
+    margin-top: 24px;
+    color: #23272e;
+}
+
+
+
+
+
+main .five 
+{
+    width: 1180px;
+    display: flex;
+    justify-content: center;
+    height: 1059px;
+}
+main .sec5
+{   
+    background-color: #f6f6f6;
+    height: 1059px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+.sec5main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 0px;
+    width: 100%;
+}
+
+.sec5main .PIC 
+{
+    width: 1180px;
+    height: 715.55px;
+    background-image: url(imgs/fourth.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.sec5main .text
+{
+    width: 980px;
+    height: 127px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.sec5main .text h2
+{
+    font-size: 37.6px;
+    color: #23272e;
+    width: 100%;
+    font-family: "Ginto-Nord";
+    text-align: center;
+}
+
+.sec5main .text p
+{
+    padding: 0 7px;
+    font-size: 20px;
+    margin-top: 22px;
+    width: 100%;
+    text-align: center;
+    color: #23272e;
+    font-weight: 100;
+    line-height: 35px;
+}
+
+
+
+
+
+
+main .six
+{
+    width: 1180px;
+    display: flex;
+    justify-content: center;
+    height: 285px;
+}
+main .sec6
+{   
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+.sec6main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 120px 0px;
+    width: 100%;
+    gap: 50px;
+}
+
+.sec6main .text
+{
+    background-image: url(imgs/lastbackground.svg);
+    background-size: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:1180px;
+
+}
+.sec6main .text h4
+{
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.sec6main .button img
+{
+    width: 25px;
+    margin-right: 8px;
+} 
+.sec6main .button a
+{
+    padding: 0 30px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 56px;
+    height: 56px;
+    background-color: #5865f2;
+}
+
+
+
+
+footer
+{
+    background-color: #23272a;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.footer
+{
+    background-color:#23272a;
+    width: 1180px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 100%;
+    padding: 80px 0 64px 0;
+}
+.footer .one
+{
+    background-color: #23272a;
+    height:fit-content;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.footer .upper
+{
+    
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    gap: 0 20px;
+}
+.footer .upper .col1
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    grid-column: span 3;
+}
+
+.footer .upper .col1 .spacer
+{
+    width: 80px;
+    height: 100%;
+}
+.footer .upper .col1 h4
+{
+    color: #5865f2;
+    font-weight: 900;
+    font-size: 32px;
+    font-family:"Ginto-Nord";
+    line-height: 95%;
+}
+.footer .upper .col1 .lang
+{
+    display: inline-flex;
+    margin-top: 24px;
+
+}
+.footer .upper .col1 .lang img
+{
+    width: 20px;
+    height: 15px;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+.footer .upper .col1 .lang span
+{
+    color: white;
+    font-size: 14px;
+    font-weight: 100;
+}
+.footer .upper .col1 .social 
+{
+    display: inline-flex;
+    margin-left: -15px;
+    margin-top: 15px;
+}
+.footer .upper .col1 .social .twitter img
+{
+    width: 50px;
+    height: 50px;
+}
+.footer .upper .col1 .social .insta img
+{
+    width: 45px;
+    height: 45px;
+    margin-top: 2.5px;
+}
+
+.footer .upper .col1 .social .face img
+{
+    width: 50px;
+    height: 50px;
+}
+.footer .upper .col1 .social .youtube img
+{
+    width: 30px;
+    height: 23px;
+    margin-top: 15px;
+}
+
+.footer .upper .col2
+{   
+    grid-column: span 2;
+    grid-area: 1/5/1/7; 
+}
+
+.footer .upper .col3
+{
+    grid-column: span 2;
+}
+.footer .upper .col4
+{
+    grid-column: span 2;
+}
+.footer .upper .col5
+{
+    grid-column: span 2;    
+}
+.footer .upper h5
+{
+    color: #5865f2;
+    font-family:"Ginto300" ;
+    font-weight: 100;
+    font-size: 16px;
+}
+.col2 a ,.col3 a,.col4 a,.col5 a
+{
+    color: white;   
+    font-family:"Ginto300" ;
+    font-weight: 300;
+    font-size: 14px;
+    display: block;
+    margin: 12px 0;
+}
+.footer .hr 
+{
+    width: 1180px;
+    height: 1px;
+    background-color : #404eed;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footer .lower
+{
+    
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    gap: 0 20px;
+}
+.footer .lower .colleft img
+{
+    width: 124px;
+    height: 25px;
+    background-size: contain;
+}
+.footer .lower .colright
+{
+    grid-area: 1/12/1/13;
+}
+.footer .lower .colright a
+{
+    color: #fff;
+    background-color: #5865f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ginto300";
+    font-size: 14px;
+    border: none;
+    height: 38px;
+    border-radius: 38px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+
+@media (max-width:1180px) 
+{
+
+    main .sec2
+{   
+    text-align: center;
+    background-color: #fff;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
+    .sec2main
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 0;
+    width: 100%;
+    height: fit-content;
+}
+
+
+
+
+
+main .sec3
+{   
+    text-align: center;
+    background-color: #fff;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
+    .sec3main
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 0;
+    width: 100%;
+    height: fit-content;
+}
+
+
+
+
+main .sec4
+{   
+    text-align: center;
+    background-color: #fff;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
+    .sec4main
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 0;
+    width: 100%;
+    height: fit-content;
+}
+
+
+
+
+main .five 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+}
+main .sec5
+{   
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+.sec5main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px auto;
+    width: 100%;
+}
+
+.sec5main .PIC 
+{
+    width: 342px;
+    height: 207px;
+    background-image: url(imgs/fourth.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+
+
+}
+.sec5main .text
+{
+    width: 342px;
+    height: 166px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+} 
+.sec5main .text h2
+{
+    font-size: 20px;
+    color: #23272e;
+    width: 100%;
+    font-family: "Ginto-Nord";
+    text-align: left;
+}
+
+.sec5main .text p
+{
+    padding: 0 7px;
+    font-size: 16px;
+    margin-top: 22px;
+    width: 100%;
+    text-align: left;
+    color: #23272e;
+    font-weight: 100;
+    line-height: 35px;
+}
+
+
+
+}
+
+
+
+.reveal
+{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+.reveal.active
+{
+    transform: translateY(0px);
+    opacity: 1;
+}
